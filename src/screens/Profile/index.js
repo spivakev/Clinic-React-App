@@ -6,9 +6,9 @@ import './style.css';
 
 
 const Profile = () => (
-  <div className="profile">
+  <div className="profile profile__wrapper">
     <Sidebar />
-    <div className="profile__content">
+    <div className="profile__content profile__wrapper">
       <Header title="Мой профиль" />
       <Main />
     </div>
