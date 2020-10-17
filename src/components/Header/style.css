@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 0 55px;
+  padding: 3px 40px;
+  max-height: 49px;
+  background-color: #50caff;
+  color: #ffffff;
+}
+
+.header__title {
+  font-size: 28px;
+  line-height: 33px;
+  font-weight: normal;
+}
+
+.header__wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header__menu {
+  display: flex;
+}
+
+.header__item {
+  margin-right: 20px;
+}
+
+.header__user .avatar {
+  margin-right: 8px;
+  padding: 1px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
