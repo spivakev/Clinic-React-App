@@ -1,0 +1,7 @@
+.Sidebar {
+  display: flex;
+  width: 190px;
+  background-color: #003b72;
+  color: #ffffff;
+  flex-direction: column;
+}
