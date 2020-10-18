@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
 .app {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
-  background-color: #e5e5e5;
+  background-color: #fcfcfc;
   color: #000000;
   height: 100vh;
 }
 
 h1,
-h2 {
+h2,
+h3,
+p {
   margin: 0;
   padding: 0;
 }
