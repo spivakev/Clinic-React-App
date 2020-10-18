@@ -11,3 +11,22 @@
 .profile__content {
   flex-direction: column;
 }
+
+.main {
+  display: flex;
+  flex: 1 0 auto;
+  width: 100%;
+}
+
+.main__container {
+  padding-top: 15px;
+  padding-right: 60px;
+  padding-left: 20px;
+}
+
+.section__title {
+  margin-left: 20px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 19px;
+}
