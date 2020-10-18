@@ -15,7 +15,9 @@
 
 .sidebar__btn {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-left: 19px;
+  margin-right: 20px;
 }
 
 .sidebar__btn > .btn {
