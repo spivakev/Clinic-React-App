@@ -1,0 +1,22 @@
+.menu-item {
+  padding: 14px 20px;
+}
+
+.menu__item {
+  margin-bottom: 10px;
+}
+
+.menu-item__link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu-item__icon {
+  width: 18px;
+  height: 18px;
+}
+
+.menu-item__text {
+  margin-left: 14px;
+}
