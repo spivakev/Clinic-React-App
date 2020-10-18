@@ -1,6 +1,7 @@
 .sidebar {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   min-width: 190px;
   background-color: #003b72;
   color: #ffffff;
@@ -10,4 +11,8 @@
 .sidebar__logo {
   padding: 19px 20px;
   max-height: 55px;
+}
+
+.sidebar__developer-logo {
+  margin: 4px auto 16px 20px;
 }
