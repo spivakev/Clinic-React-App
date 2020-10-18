@@ -4,10 +4,9 @@ import Menu from '../../components/Menu'
 import SidebarFooter from '../../components/SidebarFooter'
 
 const Sidebar = () => (
-  <aside className="Sidebar">
-    Логотип
+  <aside className="sidebar">
+    <div className="sidebar__logo">Логотип</div>
     <Menu />
-Список пунктов меню
     <SidebarFooter />
   </aside>
 )
