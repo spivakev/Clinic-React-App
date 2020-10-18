@@ -1,7 +1,8 @@
 import React from 'react';
 import './style.css';
-import Menu from '../../components/Menu';
+import Menu from '../Menu';
 import MenuItem from '../MenuItem';
+import Button from '../Button';
 import developer_logo from '../../img/appvelox_logo.png'
 
 const Sidebar = () => (
@@ -9,7 +10,9 @@ const Sidebar = () => (
     <div className="sidebar__content">
       <div className="sidebar__logo">Логотип</div>
       <Menu />
-      <Button text="Подать заявку"/>
+      <div className="sidebar__btn">
+        <Button text="Подать заявку" />
+      </div>
     </div>
     <div className="sidebar__footer">
       <MenuItem iconKey="info" text="Помощь" />
