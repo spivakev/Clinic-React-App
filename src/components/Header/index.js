@@ -29,7 +29,7 @@ const Header = (props) => (
       <div className="header__user">
         <a href="#">
           <div className="header__wrapper">
-            <Avatar src={patientPhoto} />
+            <Avatar src={patientPhoto} size="45" />
             <Icons iconKey="select" />
           </div>
         </a>
