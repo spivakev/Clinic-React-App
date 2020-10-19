@@ -1,6 +1,7 @@
 .profile {
-  height: 100vh;
+  display: flex;
   flex-direction: row;
+  align-items: stretch;
 }
 
 .profile__wrapper {
@@ -19,6 +20,7 @@
 }
 
 .main__container {
+  width: 100%;
   padding-top: 15px;
   padding-right: 60px;
   padding-left: 20px;
@@ -29,4 +31,39 @@
   margin-bottom: 15px;
   font-size: 16px;
   line-height: 19px;
+}
+
+.scheduled-visits__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.scheduled-visits__wrapper .visit-card {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.scheduled-visits__all {
+  padding-bottom: 20px;
+  align-self: center;
+  text-align: center;
+}
+
+.electronic-card {
+  margin-top: 15px;
+}
+
+.electronic-card__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.electronic-card__col {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 15px;
 }
