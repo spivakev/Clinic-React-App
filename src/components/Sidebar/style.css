@@ -1,9 +1,17 @@
 .sidebar {
   display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  min-height: 100vh;
+  background-color: #003b72;
+}
+
+.sidebar__wrapper {
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-width: 190px;
-  background-color: #003b72;
+
   color: #ffffff;
   line-height: 17px;
 }
