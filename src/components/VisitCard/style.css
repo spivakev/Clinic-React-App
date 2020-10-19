@@ -1,4 +1,5 @@
 .visit-card {
+  position: relative;
   padding: 20px;
   width: 435px;
   height: 134px;
@@ -9,7 +10,6 @@
 }
 
 .visit-card__wrapper {
-  position: relative;
   max-width: 280px;
 }
 
