@@ -1,7 +1,9 @@
 import React from 'react';
 import Sidebar from '../../components/Sidebar'
 import Header from '../../components/Header'
-import VisitCard from '../VisitCard'
+import VisitCard from '../../components/VisitCard'
+import NavigationCard from '../../components/NavigationCard'
+import Link from '../../components/Link'
 import malushko from '../../img/doctor_malushko.png'
 import harkov from '../../img/doctor_harkov.png'
 import './style.css';
@@ -14,7 +16,37 @@ const Profile = () => {
       "clinic": 'СПБ ГБУЗ "Городская поликлиника №25", пр. Солидарности, д. 1, к. 1, лит. А',
       "doctor": 'Малушко Т. Н.',
       "department": 'Хирургия'
-    }];
+    },
+    {
+      "date": "Понедельник 15.06.20 | 18:30 ",
+      "clinic": 'СПБ ГБУЗ "Городская поликлиника №25", пр. Солидарности, д. 1, к. 1, лит. А',
+      "doctor": 'Харьков В. С.',
+      "department": 'Терапевтическое отделение'
+    }
+  ];
+
+  let cardInfo = [
+    {
+      "iconKey": "cardInfo",
+      "title": "Информация о пациенте",
+      "content": "Ваши личные данные Рекомендация врачей История болезней"
+    },
+    {
+      "iconKey": "lab",
+      "title": "Результаты анализов",
+      "content": "Вы можете узнать здесь результаты своих анализов"
+    },
+    {
+      "iconKey": "addInfo",
+      "title": "Добавить информацию",
+      "content": "Добавляйте в свою электронную медицинскую карту новые данные"
+    },
+    {
+      "iconKey": "history",
+      "title": "История приемов",
+      "content": "Вся информация о полученных услугах за все время хранится здесь"
+    }
+  ]
 
   return (
     <div className="profile profile__wrapper">
@@ -26,9 +58,34 @@ const Profile = () => {
           <div className="main__container">
             <section className="section scheduled-visits">
               <div className="section__title">Записи на прием</div>
-              <VisitCard visitInfo={visits[0]} photoSrc={malushko} />
+              <div className="scheduled-visits__wrapper">
+                <VisitCard visitInfo={visits[0]} photoSrc={malushko} />
+                <VisitCard visitInfo={visits[1]} photoSrc={harkov} />
+                <div className="all-visits scheduled-visits__all">
+                  <p>Еще 3 Записи</p>
+                  <Link href="#" text="Подробнее" />
+                </div>
+              </div>
             </section>
 
+            <section className="section electronic-card">
+              <div className="section__title">Электронная карта</div>
+              <div className="electronic-card__row">
+                <div className="electronic-card__col">
+                  <NavigationCard cardContent={cardInfo[0]} />
+                </div>
+                <div className="electronic-card__col">
+                  <NavigationCard cardContent={cardInfo[1]} />
+                </div>
+                <div className="electronic-card__col">
+                  <NavigationCard cardContent={cardInfo[2]} />
+                </div>
+                <div className="electronic-card__col">
+                  <NavigationCard cardContent={cardInfo[3]} />
+                </div>
+
+              </div>
+            </section>
           </div>
         </div>
 
