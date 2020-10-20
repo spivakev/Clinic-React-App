@@ -19,10 +19,14 @@ const Appointments = () => {
               <div className="section__title-wrapper">
                 <NavIcon to="/" iconKey="back" />
                 <div className="section__title">Мои записи</div>
+              </div>
+              <div className="my-appointments__wrapper">
                 <div className="my-appointments__content">
-                  {visits.map(visitInfo => <VisitCard visitInfo={visitInfo} />)}
+                  {visits.map(visitInfo => <VisitCard visitInfo={visitInfo} />
+                  )}
                 </div>
               </div>
+
 
 
             </section>
