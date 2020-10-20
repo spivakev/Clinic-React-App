@@ -3,7 +3,8 @@ import Sidebar from '../../components/Sidebar'
 import Header from '../../components/Header'
 import VisitCard from '../../components/VisitCard'
 import NavigationCard from '../../components/NavigationCard'
-import Link from '../../components/Link'
+import NavLink from '../../components/NavLink'
+
 import malushko from '../../img/doctor_malushko.png'
 import harkov from '../../img/doctor_harkov.png'
 import './style.css';
@@ -63,7 +64,7 @@ const Profile = () => {
                 <VisitCard visitInfo={visits[1]} photoSrc={harkov} />
                 <div className="all-visits scheduled-visits__all">
                   <p>Еще 3 Записи</p>
-                  <Link href="#" text="Подробнее" />
+                  <NavLink to="/appointments" text="Подробнее" />
                 </div>
               </div>
             </section>
@@ -72,16 +73,28 @@ const Profile = () => {
               <div className="section__title">Электронная карта</div>
               <div className="electronic-card__row">
                 <div className="electronic-card__col">
-                  <NavigationCard cardContent={cardInfo[0]} />
+                  <NavigationCard iconKey="cardInfo" title="Информация о пациенте">
+                    <ul>
+                      <li>Ваши личные данные</li>
+                      <li>Рекомендации врачей</li>
+                      <li>История болезней</li>
+                    </ul>
+                  </NavigationCard>
                 </div>
                 <div className="electronic-card__col">
-                  <NavigationCard cardContent={cardInfo[1]} />
+                  <NavigationCard iconKey="lab" title="Результаты анализов">
+                    <p>Вы можете узнать здесь результаты своих анализов</p>
+                  </NavigationCard>
                 </div>
                 <div className="electronic-card__col">
-                  <NavigationCard cardContent={cardInfo[2]} />
+                  <NavigationCard iconKey="addInfo" title="Добавить информацию">
+                    <p>Добавляйте в свою электронную медицинскую карту новые данные</p>
+                  </NavigationCard>
                 </div>
                 <div className="electronic-card__col">
-                  <NavigationCard cardContent={cardInfo[3]} />
+                  <NavigationCard iconKey="history" title="История приемов">
+                    <p>Вся информация о полученных услугах за все время хранится здесь</p>
+                  </NavigationCard>
                 </div>
 
               </div>
