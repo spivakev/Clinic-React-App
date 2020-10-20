@@ -4,28 +4,11 @@ import Header from '../../components/Header'
 import VisitCard from '../../components/VisitCard'
 import NavigationCard from '../../components/NavigationCard'
 import NavLink from '../../components/NavLink'
-
-import malushko from '../../img/doctor_malushko.png'
-import harkov from '../../img/doctor_harkov.png'
+import visits from '../../visits.json';
 import './style.css';
 
 
 const Profile = () => {
-  let visits = [
-    {
-      "date": "Понедельник 15.06.20 | 15:30",
-      "clinic": 'СПБ ГБУЗ "Городская поликлиника №25", пр. Солидарности, д. 1, к. 1, лит. А',
-      "doctor": 'Малушко Т. Н.',
-      "department": 'Хирургия'
-    },
-    {
-      "date": "Понедельник 15.06.20 | 18:30 ",
-      "clinic": 'СПБ ГБУЗ "Городская поликлиника №25", пр. Солидарности, д. 1, к. 1, лит. А',
-      "doctor": 'Харьков В. С.',
-      "department": 'Терапевтическое отделение'
-    }
-  ];
-
   let cardInfo = [
     {
       "iconKey": "cardInfo",
@@ -60,10 +43,10 @@ const Profile = () => {
             <section className="section scheduled-visits">
               <div className="section__title">Записи на прием</div>
               <div className="scheduled-visits__wrapper">
-                <VisitCard visitInfo={visits[0]} photoSrc={malushko} />
-                <VisitCard visitInfo={visits[1]} photoSrc={harkov} />
+                <VisitCard visitInfo={visits[0]} />
+                <VisitCard visitInfo={visits[1]} />
                 <div className="all-visits scheduled-visits__all">
-                  <p>Еще 3 Записи</p>
+                  <p>Еще {visits.length - 2} Записи</p>
                   <NavLink to="/appointments" text="Подробнее" />
                 </div>
               </div>
