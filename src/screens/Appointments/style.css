@@ -5,3 +5,8 @@
 .section__title {
   margin-left: 14px;
 }
+
+.my-appointments__content {
+  display: flex;
+  flex-direction: column;
+}

@@ -2,8 +2,9 @@ import React from 'react';
 import Sidebar from '../../components/Sidebar'
 import Header from '../../components/Header'
 import NavIcon from '../../components/NavIcon'
-import SectionTitle from '../../components/SectionTitle'
 import './style.css';
+import visits from '../../visits.json'
+import VisitCard from '../../components/VisitCard';
 
 const Appointments = () => {
   return (
@@ -18,6 +19,9 @@ const Appointments = () => {
               <div className="section__title-wrapper">
                 <NavIcon to="/" iconKey="back" />
                 <div className="section__title">Мои записи</div>
+                <div className="my-appointments__content">
+                  {visits.map(visitInfo => <VisitCard visitInfo={visitInfo} />)}
+                </div>
               </div>
 
 
