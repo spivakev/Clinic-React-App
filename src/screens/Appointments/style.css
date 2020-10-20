@@ -6,7 +6,37 @@
   margin-left: 14px;
 }
 
+.my-appointments__wrapper {
+}
+
 .my-appointments__content {
+  padding: 2px 0 2px 2px;
   display: flex;
   flex-direction: column;
+  width: 505px;
+  height: 646px;
+  overflow: scroll;
+  scrollbar-color: #003b72 #ebe7ff;
+  scrollbar-width: 8px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 0px;
+  background-color: #ebe7ff;
+  border-radius: 5px;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+  background-color: #003b72;
+  border-radius: 5px;
+}
+
+.my-appointments__content > .visit-card {
+  margin-bottom: 15px;
+}
+
+.my-appointments__item:last-of-type {
+  margin-bottom: 0px;
 }
