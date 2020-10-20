@@ -3,10 +3,11 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  width: 540px;
-  height: 183px;
+  width: 536px;
+  height: 179px;
 
   background: #ffffff;
+  border: 2px solid #ffffff;
   box-shadow: 0px 0px 5px #ebe7ff;
   border-radius: 5px;
 }
@@ -15,7 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 0 0 133px;
+  flex: 0 0 131px;
   height: 100%;
 }
 
@@ -29,7 +30,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 19px 36px 20px;
+  padding: 15px 34px 20px 36px;
 }
 
 .navigation-card__title {
@@ -53,4 +54,52 @@
   max-width: 324px;
   font-size: 16px;
   line-height: 24px;
+}
+
+.navigation-card__content > ul > li {
+  position: relative;
+  margin-bottom: 6px;
+  margin-left: 15px;
+}
+
+.navigation-card__content > ul > li:last-of-type {
+  margin-bottom: 0px;
+}
+
+.navigation-card__content > ul > li::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -15px;
+  width: 4px;
+  height: 4px;
+  background-color: #ebe7ff;
+  border-radius: 50%;
+}
+
+.navigation-card:active {
+  opacity: 75%;
+}
+
+.navigation-card:hover {
+  border-radius: 5px;
+  box-shadow: none;
+  border: 2px solid #50caff;
+}
+
+.navigation-card:hover .navigation-card__icon-wrapper {
+  background-color: #50caff;
+}
+
+.navigation-card:hover .navigation-card__icon svg {
+  fill: #ffffff;
+  stroke: #50caff;
+}
+
+.navigation-card:hover .navigation-card__title::after {
+  border: 1px solid #50caff;
+}
+
+.navigation-card:hover li::before {
+  background-color: #50caff;
 }
