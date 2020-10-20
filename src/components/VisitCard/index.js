@@ -6,7 +6,7 @@ import Button from '../Button'
 
 const VisitCard = (props) => {
   let visit = props.visitInfo;
-  let photoSrc = props.photoSrc;
+  let img = require('../../img/' + visit.photo_name);
 
   return (
     <div class="visit-card">
@@ -15,7 +15,7 @@ const VisitCard = (props) => {
         <div className="visit-card__clinic">{visit.clinic}</div>
         <div className="doctor visit-card__doctor">
           <div className="doctor__avatar">
-            <Avatar src={photoSrc} size="60" />
+            <Avatar src={img} size="60" />
           </div>
           <div className="doctor__info">
             <div className="doctor__name">{visit.doctor}</div>
