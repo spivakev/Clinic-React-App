@@ -1,5 +1,6 @@
 .menu-item {
-  padding: 14px 20px;
+  padding: 14px 20px 14px 18px;
+  border-left: 2px solid transparent;
 }
 
 .menu__item {
@@ -17,6 +18,20 @@
   height: 18px;
 }
 
+.menu-item svg {
+  fill: #ffffff;
+}
+
 .menu-item__text {
   margin-left: 14px;
+}
+
+.menu-item:active {
+  background-color: #fff;
+  color: #7761ff;
+  border-left: 2px solid #7761ff;
+}
+
+.menu-item:active svg {
+  fill: #7761ff;
 }
