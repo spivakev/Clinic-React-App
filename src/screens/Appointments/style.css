@@ -1,0 +1,7 @@
+.section__title-wrapper {
+  display: flex;
+}
+
+.section__title {
+  margin-left: 14px;
+}
