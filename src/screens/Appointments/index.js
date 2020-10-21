@@ -8,7 +8,25 @@ import VisitCard from '../../components/VisitCard';
 import Calendar from '../../components/Calendar';
 
 const Appointments = () => {
- 
+  let daysNumber = 30;
+  let monthStartsWeekDay = 3; //1 - пн, 7 - вс
+  let availibleRangeStart = 5;
+  let availibleRangeEnd = 30;
+
+  let daysVisitsArr = []
+
+  for (let i = 0; i < daysNumber; i++) {
+    let visitsCount = 0;
+
+    if (i === 14) visitsCount = 2;
+    else if (i === 29) visitsCount = 1;
+
+    let dayNumber = String(i + 1);
+    let pair = [dayNumber, visitsCount]
+    daysVisitsArr.push(pair);
+  }
+
+
   return (
     <div className="appointments screen screen__wrapper">
       <Sidebar />
@@ -31,7 +49,13 @@ const Appointments = () => {
             </section>
             <section>
               <div className="appointments__calendar">
-                <Calendar />
+                <Calendar
+                  daysNumber={daysNumber}
+                  monthStartsWeekDay={monthStartsWeekDay}
+                  availibleRangeStart={availibleRangeStart}
+                  availibleRangeEnd={availibleRangeEnd}
+                  daysVisitsArr={daysVisitsArr}
+                />
               </div>
             </section>
           </div>
