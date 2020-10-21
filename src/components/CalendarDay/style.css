@@ -1,0 +1,41 @@
+.calendar-day {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 61px;
+  height: 42px;
+  padding: 11px 10px 10px 8px;
+}
+
+.calendar-day--availible {
+  background-color: #ffffff;
+}
+
+.calendar-day--not-availible {
+  background-color: transparent;
+}
+
+.calendar-day__number {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 25px;
+  height: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+.calendar-day--availible .calendar-day__number {
+  color: #000000;
+}
+
+.calendar-day--not-availible .calendar-day__number {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.calendar-day__visits {
+  align-self: flex-end;
+}
