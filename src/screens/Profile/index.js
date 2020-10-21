@@ -33,15 +33,15 @@ const Profile = () => {
   ]
 
   return (
-    <div className="profile profile__wrapper">
+    <div className="profile screen screen__wrapper">
       <Sidebar />
-      <div className="profile__content profile__wrapper">
+      <div className="screen__content screen__wrapper">
         <Header title="Мой профиль" />
 
         <div className="main">
-          <div className="main__container">
+          <div className="profile__container">
             <section className="section scheduled-visits">
-              <div className="section__title">Записи на прием</div>
+              <div className="section__title profile__section-title ">Записи на прием</div>
               <div className="scheduled-visits__wrapper">
                 <VisitCard visitInfo={visits[0]} />
                 <VisitCard visitInfo={visits[1]} />
@@ -53,7 +53,7 @@ const Profile = () => {
             </section>
 
             <section className="section electronic-card">
-              <div className="section__title">Электронная карта</div>
+              <div className="section__title profile__section-title ">Электронная карта</div>
               <div className="electronic-card__row">
                 <div className="electronic-card__col">
                   <NavigationCard iconKey="cardInfo" title="Информация о пациенте">

@@ -1,15 +1,15 @@
-.profile {
+.screen {
   display: flex;
   flex-direction: row;
   align-items: stretch;
 }
 
-.profile__wrapper {
+.screen__wrapper {
   display: flex;
   width: 100%;
 }
 
-.profile__content {
+.screen__content {
   flex-direction: column;
 }
 
@@ -19,18 +19,21 @@
   width: 100%;
 }
 
-.main__container {
+.profile__container {
   width: 100%;
   padding-top: 15px;
   padding-right: 60px;
   padding-left: 20px;
 }
 
-.profile .section__title {
-  margin-left: 20px;
-  margin-bottom: 15px;
+.section-title {
   font-size: 16px;
   line-height: 19px;
+}
+
+.profile__section-title {
+  margin-left: 20px;
+  margin-bottom: 15px;
 }
 
 .scheduled-visits__wrapper {
