@@ -10,7 +10,7 @@ const CalendarDay = (props) => {
   console.log('dayNumber' + dayNumber)
 
   let visitsNumber = props.visitsNumber;
-
+  let visitsView;
   let styleClass;
 
   if (isAvailible) {
