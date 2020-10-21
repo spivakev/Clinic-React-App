@@ -1,0 +1,51 @@
+.visit-calendar {
+  width: 573px;
+  height: 481px;
+  background-color: #ebe7ff;
+  border-radius: 5px;
+}
+
+.visit-calendar__header {
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #7761ff;
+  color: #ffffff;
+}
+
+.visit-calendar__header span {
+  margin: 0 38px;
+}
+
+.visit-calendar svg {
+  fill: #fff;
+}
+
+.visit-calendar__body {
+  padding: 0 10px;
+}
+
+.visit-calendar__week-days {
+  display: flex;
+  padding: 10px 0;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.week-days__day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 79px;
+}
+
+.visit-calendar__days {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
