@@ -26,12 +26,14 @@
   margin-left: 14px;
 }
 
-.menu-item:active {
+.menu-item:active,
+.menu-item--active {
   background-color: #fff;
   color: #7761ff;
   border-left: 2px solid #7761ff;
 }
 
-.menu-item:active svg {
+.menu-item:active svg,
+.menu-item--active svg {
   fill: #7761ff;
 }

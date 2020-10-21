@@ -9,7 +9,7 @@ const VisitCard = (props) => {
   let img = require('../../img/' + visit.photo_name);
 
   return (
-    <div class="visit-card">
+    <div className="visit-card">
       <div className="visit-card__wrapper">
         <h3 className="visit-card__date">{visit.date}</h3>
         <div className="visit-card__clinic">{visit.clinic}</div>
