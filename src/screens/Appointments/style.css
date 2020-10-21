@@ -1,19 +1,37 @@
-.section__title-wrapper {
-  display: flex;
+.appointments__main {
+  padding-top: 16px;
+  padding-left: 18px;
 }
 
-.section__title {
+.appointments__back {
+  margin-left: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.appointments__section-title {
   margin-left: 14px;
+  line-height: 18px;
+}
+
+.appointments__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .my-appointments__wrapper {
+  margin-top: 9px;
 }
 
 .my-appointments__content {
   padding: 2px 0 2px 2px;
   display: flex;
   flex-direction: column;
-  width: 505px;
+  width: 503px;
   height: 646px;
   overflow: scroll;
   scrollbar-color: #003b72 #ebe7ff;
@@ -39,4 +57,9 @@
 
 .my-appointments__item:last-of-type {
   margin-bottom: 0px;
+}
+
+.appointments__calendar {
+  margin-top: 10px;
+  margin-left: 40px;
 }
