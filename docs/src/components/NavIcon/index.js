@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Icons from '../../components/Icons'
+import Icons from '../Icons'
 
 const NavIcon = (props) => (
   <Link className="nav-icon" to={props.to} activeClassName="active">
