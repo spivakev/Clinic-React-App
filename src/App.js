@@ -7,10 +7,10 @@ require('typeface-rubik')
 
 function App() {
   return (
-    <Router>
+    <Router basename={window.location.pathname || ''}>
       <div className="app">
         <Route path="/appointments" component={Appointments} />
-        <Route path="/" exact component={Profile} />
+        <Route exact path="/" component={Profile} />
       </div>
     </Router>
   );
