@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Clinic-React-App/static/css/main.37e1783a.chunk.css",
+    "main.js": "/Clinic-React-App/static/js/main.1c3a59ac.chunk.js",
+    "main.js.map": "/Clinic-React-App/static/js/main.1c3a59ac.chunk.js.map",
+    "runtime-main.js": "/Clinic-React-App/static/js/runtime-main.b32eba7d.js",
+    "runtime-main.js.map": "/Clinic-React-App/static/js/runtime-main.b32eba7d.js.map",
+    "static/css/2.1036e922.chunk.css": "/Clinic-React-App/static/css/2.1036e922.chunk.css",
+    "static/js/2.d0491be5.chunk.js": "/Clinic-React-App/static/js/2.d0491be5.chunk.js",
+    "static/js/2.d0491be5.chunk.js.map": "/Clinic-React-App/static/js/2.d0491be5.chunk.js.map",
+    "index.html": "/Clinic-React-App/index.html",
+    "precache-manifest.3f0fcb6a541eaa16ee79ea9fda7a51d0.js": "/Clinic-React-App/precache-manifest.3f0fcb6a541eaa16ee79ea9fda7a51d0.js",
+    "service-worker.js": "/Clinic-React-App/service-worker.js",
+    "static/css/2.1036e922.chunk.css.map": "/Clinic-React-App/static/css/2.1036e922.chunk.css.map",
+    "static/css/main.37e1783a.chunk.css.map": "/Clinic-React-App/static/css/main.37e1783a.chunk.css.map",
+    "static/js/2.d0491be5.chunk.js.LICENSE.txt": "/Clinic-React-App/static/js/2.d0491be5.chunk.js.LICENSE.txt",
+    "static/media/doctor_harkov.png": "/Clinic-React-App/static/media/doctor_harkov.7843bd85.png",
+    "static/media/doctor_malushko.png": "/Clinic-React-App/static/media/doctor_malushko.7ca73bdf.png",
+    "static/media/patient.png": "/Clinic-React-App/static/media/patient.a903783d.png",
+    "static/media/index.css": "/Clinic-React-App/static/media/rubik-latin-900italic.7f1410c2.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b32eba7d.js",
+    "static/css/2.1036e922.chunk.css",
+    "static/js/2.d0491be5.chunk.js",
+    "static/css/main.37e1783a.chunk.css",
+    "static/js/main.1c3a59ac.chunk.js"
+  ]
+}
