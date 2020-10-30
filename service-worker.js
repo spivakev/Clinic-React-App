@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Clinic-React-App/precache-manifest.09d5132322c5f35f1400a83fd50b3364.js"
+  "/Clinic-React-App/precache-manifest.e491e9ff0c49668268c866983dcd2e07.js"
 );
 
 self.addEventListener('message', (event) => {
