@@ -1,4 +1,4 @@
-.visit-card {
+.planned-visit-card {
   position: relative;
   padding: 20px;
   width: 431px;
@@ -10,30 +10,30 @@
   border-radius: 5px;
 }
 
-.visit-card:hover {
+.planned-visit-card:hover {
   width: 431px;
   height: 130px;
   box-shadow: none;
   border: 2px solid #ebe7ff;
 }
 
-.visit-card__wrapper {
+.planned-visit-card__wrapper {
   max-width: 280px;
 }
 
-.visit-card__date {
+.planned-visit-card__date {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
 }
 
-.visit-card__clinic {
+.planned-visit-card__clinic {
   margin-top: 6px;
   font-weight: 300;
   line-height: 20px;
 }
 
-.visit-card__doctor {
+.planned-visit-card__doctor {
   margin-top: 9px;
 }
 
@@ -60,7 +60,7 @@
   margin-left: 10px;
 }
 
-.visit-card__btn {
+.planned-visit-card__btn {
   position: absolute;
   bottom: 20px;
   right: 20px;

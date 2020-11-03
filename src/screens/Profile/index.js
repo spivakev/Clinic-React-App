@@ -1,7 +1,7 @@
 import React from 'react';
 import Sidebar from '../../components/Sidebar'
 import Header from '../../components/Header'
-import VisitCard from '../../components/VisitCard'
+import PlannedVisitCard from '../../components/PlannedVisitCard'
 import NavigationCard from '../../components/NavigationCard'
 import NavLink from '../../components/NavLink'
 import visits from '../../visits.json';
@@ -43,8 +43,8 @@ const Profile = () => {
             <section className="section scheduled-visits">
               <div className="section__title profile__section-title ">Записи на прием</div>
               <div className="scheduled-visits__wrapper">
-                <VisitCard visitInfo={visits[0]} />
-                <VisitCard visitInfo={visits[1]} />
+                <PlannedVisitCard visitInfo={visits[0]} />
+                <PlannedVisitCard visitInfo={visits[1]} />
                 <div className="all-visits scheduled-visits__all">
                   <p>Еще {visits.length - 2} Записи</p>
                   <NavLink to="/appointments" text="Подробнее" />

@@ -4,7 +4,7 @@ import Header from '../../components/Header'
 import NavIcon from '../../components/NavIcon'
 import './style.css';
 import visits from '../../visits.json'
-import VisitCard from '../../components/VisitCard';
+import PlannedVisitCard from '../../components/PlannedVisitCard';
 import Calendar from '../../components/Calendar';
 
 const Appointments = () => {
@@ -42,7 +42,7 @@ const Appointments = () => {
             <section className="section my-appointments">
               <div className="my-appointments__wrapper">
                 <div className="my-appointments__content">
-                  {visits.map(visitInfo => <VisitCard visitInfo={visitInfo} />
+                  {visits.map(visitInfo => <PlannedVisitCard visitInfo={visitInfo} />
                   )}
                 </div>
               </div>
