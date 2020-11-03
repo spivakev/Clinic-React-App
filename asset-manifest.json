@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Clinic-React-App/static/css/main.b0855f5f.chunk.css",
+    "main.css": "/Clinic-React-App/static/css/main.10248c9a.chunk.css",
     "main.js": "/Clinic-React-App/static/js/main.a28cf94f.chunk.js",
     "main.js.map": "/Clinic-React-App/static/js/main.a28cf94f.chunk.js.map",
     "runtime-main.js": "/Clinic-React-App/static/js/runtime-main.b32eba7d.js",
@@ -9,10 +9,10 @@
     "static/js/2.d0491be5.chunk.js": "/Clinic-React-App/static/js/2.d0491be5.chunk.js",
     "static/js/2.d0491be5.chunk.js.map": "/Clinic-React-App/static/js/2.d0491be5.chunk.js.map",
     "index.html": "/Clinic-React-App/index.html",
-    "precache-manifest.95e9bd9b45d4d7b0f4770f5b8541e5d1.js": "/Clinic-React-App/precache-manifest.95e9bd9b45d4d7b0f4770f5b8541e5d1.js",
+    "precache-manifest.7d62e5359bce92daca59f661bd982e20.js": "/Clinic-React-App/precache-manifest.7d62e5359bce92daca59f661bd982e20.js",
     "service-worker.js": "/Clinic-React-App/service-worker.js",
     "static/css/2.1036e922.chunk.css.map": "/Clinic-React-App/static/css/2.1036e922.chunk.css.map",
-    "static/css/main.b0855f5f.chunk.css.map": "/Clinic-React-App/static/css/main.b0855f5f.chunk.css.map",
+    "static/css/main.10248c9a.chunk.css.map": "/Clinic-React-App/static/css/main.10248c9a.chunk.css.map",
     "static/js/2.d0491be5.chunk.js.LICENSE.txt": "/Clinic-React-App/static/js/2.d0491be5.chunk.js.LICENSE.txt",
     "static/media/doctor_harkov.png": "/Clinic-React-App/static/media/doctor_harkov.7843bd85.png",
     "static/media/doctor_malushko.png": "/Clinic-React-App/static/media/doctor_malushko.7ca73bdf.png",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.b32eba7d.js",
     "static/css/2.1036e922.chunk.css",
     "static/js/2.d0491be5.chunk.js",
-    "static/css/main.b0855f5f.chunk.css",
+    "static/css/main.10248c9a.chunk.css",
     "static/js/main.a28cf94f.chunk.js"
   ]
 }

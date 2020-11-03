@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "635916b828b687044802677758e7c162",
+    "revision": "12894f69e876354d4babece5bab473cd",
     "url": "/Clinic-React-App/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Clinic-React-App/static/css/2.1036e922.chunk.css"
   },
   {
-    "revision": "9f0cdeb4c4bc798f969d",
-    "url": "/Clinic-React-App/static/css/main.b0855f5f.chunk.css"
+    "revision": "cd70695fc84ce168bf02",
+    "url": "/Clinic-React-App/static/css/main.10248c9a.chunk.css"
   },
   {
     "revision": "8a26f5da932370923fc1",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Clinic-React-App/static/js/2.d0491be5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9f0cdeb4c4bc798f969d",
+    "revision": "cd70695fc84ce168bf02",
     "url": "/Clinic-React-App/static/js/main.a28cf94f.chunk.js"
   },
   {
