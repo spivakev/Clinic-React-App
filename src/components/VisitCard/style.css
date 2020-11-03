@@ -1,12 +1,20 @@
 .visit-card {
   position: relative;
   padding: 20px;
-  width: 435px;
-  height: 134px;
+  width: 431px;
+  height: 130px;
 
   background: #ffffff;
+  border: 2px solid #ffffff;
   box-shadow: 0px 0px 5px #ebe7ff;
   border-radius: 5px;
+}
+
+.visit-card:hover {
+  width: 431px;
+  height: 130px;
+  box-shadow: none;
+  border: 2px solid #ebe7ff;
 }
 
 .visit-card__wrapper {
