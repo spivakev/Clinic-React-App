@@ -43,8 +43,12 @@ const Profile = () => {
             <section className="section scheduled-visits">
               <div className="section__title profile__section-title ">Записи на прием</div>
               <div className="scheduled-visits__wrapper">
-                <PlannedVisitCard visitInfo={visits[0]} />
-                <PlannedVisitCard visitInfo={visits[1]} />
+                <div className="scheduled-visits__card">
+                  <PlannedVisitCard visitInfo={visits[0]} />
+                </div>
+                <div className="scheduled-visits__card">
+                  <PlannedVisitCard visitInfo={visits[1]} />
+                </div>
                 <div className="all-visits scheduled-visits__all">
                   <p>Еще {visits.length - 2} Записи</p>
                   <NavLink to="/appointments" text="Подробнее" />

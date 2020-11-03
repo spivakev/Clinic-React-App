@@ -42,7 +42,7 @@
   justify-content: flex-start;
 }
 
-.scheduled-visits__wrapper .visit-card {
+.scheduled-visits__card {
   margin-right: 20px;
   margin-bottom: 20px;
 }
