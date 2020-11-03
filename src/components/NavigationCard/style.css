@@ -78,7 +78,7 @@
 }
 
 .navigation-card:active {
-  opacity: 75%;
+  filter: brightness(110%);
 }
 
 .navigation-card:hover {

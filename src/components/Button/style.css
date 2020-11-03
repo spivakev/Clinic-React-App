@@ -17,7 +17,7 @@
 }
 
 .btn:active {
-  opacity: 30%;
+  filter: brightness(150%);
 }
 
 .btn:focus {

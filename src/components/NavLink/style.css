@@ -8,5 +8,5 @@
 }
 
 .nav-link:active {
-  opacity: 70%;
+  filter: brightness(120%);
 }
